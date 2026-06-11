@@ -64,6 +64,18 @@ hw3/
 | Transformer (ours) | ~88% | IMDB sentiment |
 | DistilBERT (optional) | ~92% | Pretrained 66M params |
 
+## Results Summary
+
+See [report.md](report.md) for the full analysis with plots and metric tables.
+
+| Task | Best Model | Score |
+|------|-----------|-------|
+| Breast Cancer (clf) | MLP + Adam | 97.67% accuracy |
+| California Housing (reg) | MLP | R² = 0.762 |
+| CIFAR-10 (image clf) | ResNet18 Full Fine-tune | 90.25% test acc |
+| IMDB Sentiment | GRU | 86.39% test acc |
+| IMDB Sentiment (optional) | DistilBERT | ~92% test acc |
+
 ## Requirements
 ```
 torch >= 2.0 · torchvision >= 0.15 · datasets >= 2.14
