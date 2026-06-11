@@ -1,0 +1,14 @@
+experiment,config,best_val_acc
+kernel,Kernels 1x1,0.4245
+kernel,Kernels 3x3,0.602
+kernel,Kernels 5x5,0.592
+kernel,"Mixed 3,3,5",0.6045
+filters,"Thin  [8,16,32]",0.507
+filters,"Base  [32,64,128]",0.602
+filters,"Wide  [64,128,256]",0.6205
+depth,1 block,0.399
+depth,2 blocks,0.4825
+depth,3 blocks,0.602
+depth,4 blocks,0.576
+pooling,MaxPool2d,0.602
+pooling,AvgPool2d,0.573

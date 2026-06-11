@@ -1,0 +1,5 @@
+Model,Val Acc,Test Acc,Params
+Baseline CNN (scratch),0.7994,0.7953,259210
+ResNet18 Feature Extr.,0.5668,0.549,5130
+ResNet18 Fine-tune Last,0.8284,0.8434,8398858
+ResNet18 Full Fine-tune,0.9056,0.9025,11181642

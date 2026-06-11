@@ -1,0 +1,5 @@
+Optimizer,Best Val Acc
+SGD (lr=0.01),0.9647
+SGD + Momentum,0.9765
+Adam (lr=0.001),0.9882
+Adam (lr=0.01),0.9882

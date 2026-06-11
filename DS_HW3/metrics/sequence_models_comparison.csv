@@ -1,0 +1,5 @@
+Model,Test Acc
+RNN,0.4966
+LSTM,0.7252
+GRU,0.86392
+Transformer,0.82564
