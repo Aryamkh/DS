@@ -1,4 +1,12 @@
 # Time-series anomaly detection project report
+## DS‌ project 1404-2
+First, we'd like to thank my collaborator and dear friend, **Armin Samadi**. This is a joint project that we developed together.
+
+**Anomaly Detection for High-Dimensional Multivariate Data with Limited Samples**
+
+This work is based on **SnappFood** production data. Due to security and privacy requirements, all sensitive information has been anonymized and hashed. While we can describe the technical meaning of the metrics and features used, no financial, business-sensitive, or personally identifiable data is disclosed. The dataset contains only sanitized technical information suitable for demonstrating and evaluating the proposed anomaly detection methodology.
+
+
 
 ## 1. Problem and data
 
