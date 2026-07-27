@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "anonymized": true,
+  "source_rows": 4508,
+  "sample_count_total": 9088136,
+  "columns": [
+    "series_index",
+    "group_tag",
+    "query_tag",
+    "label_tag",
+    "sample_count"
+  ],
+  "categorical_tags": {
+    "group_tag": 3,
+    "query_tag": 1135,
+    "label_tag": 114
+  },
+  "id_scheme": "1-based IDs ordered by SHA-256 digest; original strings are not written",
+  "removed_sensitive_fields": [
+    "group",
+    "query_name",
+    "query_id",
+    "series_id",
+    "labels_json",
+    "promql",
+    "source"
+  ],
+  "metadata_csv": "metadata-hashed.csv"
+}
