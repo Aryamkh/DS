@@ -83,11 +83,11 @@ from the copied results package after selecting the runs.
 
 ## Running the final model
 
-Use the Modal environment configured for this project:
+Use the ml environment configured for this project:
 
 ```bash
 source /home/aria/sharif/DS/DS_HW4/ml-env/bin/activate
-modal run modal_app.py \
+python modal_app.py \
   --full-only \
   --architecture panel_factor \
   --use-metadata \

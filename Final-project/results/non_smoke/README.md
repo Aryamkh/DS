@@ -1,4 +1,4 @@
-# Completed non-smoke Modal results
+# Completed non-smoke ml-env results
 
 `completed/` contains the three selected full runs. Markdown reports and PNG
 visualizations were retained; JSON files, PyTorch checkpoints/score grids, and
